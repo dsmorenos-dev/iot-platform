@@ -20,7 +20,7 @@ flowchart LR
         B6[Publish commands]
     end
 
-    subgraph DB[(PostgreSQL)]
+    subgraph DB[PostgreSQL]
         D1[Measurements]
         D2[Devices]
         D3[Commands]
